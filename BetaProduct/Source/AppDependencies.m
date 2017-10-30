@@ -38,6 +38,8 @@
 }
 
 - (void) configureLibraries {
+    // THIS IS A TEST
+    
     [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
     [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
     
